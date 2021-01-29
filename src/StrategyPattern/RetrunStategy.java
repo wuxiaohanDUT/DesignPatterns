@@ -11,6 +11,7 @@ public class RetrunStategy extends CashStrategy{
     @Override
     public double acceptCash(double money) {
         return money-((int)money/moneyCodition)*moneyRetrun;
+        
     }
 
 }
