@@ -5,10 +5,8 @@ package DecoratorPattern;
  */
 public class Sugar extends CondimentDecorator{
 
-    private Beverage beverage;
-
     public Sugar(Beverage beverage){
-        this.beverage=beverage;
+        super.beverage=beverage;
     }
 
     @Override
