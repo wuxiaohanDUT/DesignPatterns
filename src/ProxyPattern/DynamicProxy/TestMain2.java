@@ -15,3 +15,4 @@ public class TestMain2 {
         housebuy.buy();
     }
 }
+
